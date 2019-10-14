@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppDelivery</string>
+    <string name="brand_button_text">START</string>
+    <string name="title_activity_delivery">DeliveryActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+
+    <string name="defaultText">Default Text</string>
+    <string name="delivery_btn_text">Realizar Delivery</string>
+</resources>
