@@ -48,7 +48,7 @@ class MapFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        setupMap(savedInstanceState)
+        setupAddress()
         val view = inflater.inflate(R.layout.fragment_map, container, false)
 
         mMapView = view.findViewById(R.id.mapView)
@@ -67,7 +67,7 @@ class MapFragment : Fragment() {
         return view
     }
 
-    private fun setupMap(savedInstanceState: Bundle?) {
+    private fun setupAddress() {
         arguments?.let {
             val address = it.getString("address")
             if (address != null) addressText = address
